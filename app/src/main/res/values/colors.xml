@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="MaterialTeal300">#4db6ac</color>
+    <color name="MaterialTeal100">#b2dfdb</color>
+    <color name="MaterialTeal50">#e0f2f1</color>
+    <color name="MaterialOrange500">#ff9800</color>
+    <color name="MaterialOrange200">#ffcc80</color>
+    <color name="MaterialOrange50">#fff3e0</color>
+    <color name="Blanco">#ffffff</color>
+    <color name="Negro">#000000</color>
+    <color name="Gris">#E5E2E2</color>
+    <color name="GrisBot">#A39F9F</color>
+    <color name="VerdeLima">#63CF18</color>
+    <color name="Purpura">#D406F4</color>
+</resources>

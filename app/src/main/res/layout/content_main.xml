@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/fondo_main">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/moonblade"
+        android:text="WELCOME"
+        android:textColor="@color/Negro"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="338dp"
+        android:layout_height="190dp"
+        android:background="@drawable/fondologin"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/ic_usuario" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/ic_lock" />
+
+            <EditText
+                android:id="@+id/passwd"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:enabled="false"
+                android:textColor="@color/Negro"
+                android:hint="Password"
+                android:inputType="numberPassword" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lny"
+        android:layout_width="193dp"
+        android:layout_height="81dp"
+        android:background="@drawable/fondocaja"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69">
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            style="@style/buttons_background">
+
+            <RadioButton
+                android:id="@+id/op1"
+                style="@style/buttons"
+                android:text="@string/un" />
+
+            <RadioButton
+                android:id="@+id/op2"
+                style="@style/buttons"
+                android:text="@string/tre" />
+
+            <RadioButton
+                android:id="@+id/op3"
+                style="@style/buttons"
+                android:text="@string/ci" />
+
+            <RadioButton
+                android:id="@+id/op4"
+                style="@style/buttons"
+                android:text="@string/sie" />
+
+            <RadioButton
+                android:id="@+id/op5"
+                style="@style/buttons"
+                android:text="@string/nu" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            style="@style/buttons_background">
+
+            <RadioButton
+                android:id="@+id/op6"
+                style="@style/buttons"
+                android:text="@string/ds" />
+
+            <RadioButton
+                android:id="@+id/op7"
+                style="@style/buttons"
+                android:text="@string/cu" />
+
+            <RadioButton
+                android:id="@+id/op8"
+                style="@style/buttons"
+                android:text="@string/si" />
+
+            <RadioButton
+                android:id="@+id/op9"
+                style="@style/buttons"
+                android:text="@string/oc" />
+
+            <RadioButton
+                android:id="@+id/op0"
+                style="@style/buttons"
+                android:text="@string/ce" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not an user? Register HERE"
+        android:textColor="@color/Blanco"
+        app:layout_constraintBottom_toTopOf="@+id/rg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/exit"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@drawable/clear_v3" />
+
+        <RadioButton
+            android:id="@+id/refresh"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:button="@null"
+            android:drawableBottom="@drawable/refresh_v2" />
+
+        <RadioButton
+            android:id="@+id/next"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@drawable/next_v2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/remnum"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableBottom="@android:drawable/ic_menu_close_clear_cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="tvPersonalizado">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">125dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="buttons">
+        <item name="android:layout_width">@dimen/lado_cuadradoP</item>
+        <item name="android:layout_height">@dimen/lado_cuadradoP</item>
+        <item name="android:button">@null</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/pressed_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="buttons_background">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+    </style>
+
+</resources>

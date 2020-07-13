@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="codigo">Codigo</string>
+    <string name="nick" translatable="false">Nick</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Password*</string>
+    <string name="registro">Registro</string>
+    <string name="un" translatable="false">1</string>
+    <string name="ds" translatable="false">2</string>
+    <string name="tre" translatable="false">3</string>
+    <string name="cu" translatable="false">4</string>
+    <string name="ci" translatable="false">5</string>
+    <string name="si" translatable="false">6</string>
+    <string name="sie" translatable="false">7</string>
+    <string name="oc" translatable="false">8</string>
+    <string name="nu" translatable="false">9</string>
+    <string name="ce" translatable="false">0</string>
+    <string name="a" translatable="false">Nos vamos Vuelve pronto</string>
+    <string name="title_activity_logged" translatable="false">LoggedActivity</string>
+</resources>

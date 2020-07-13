@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MaterialTeal50"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/MaterialTeal300"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/Negro"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:text="User" />
+
+        <EditText
+            android:id="@+id/myname"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:background="@color/MaterialTeal300"
+            android:textColor="@color/Negro"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="30dp"
+            android:text="Email*" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:background="@color/MaterialTeal300"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/Negro"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:text="@string/contra" />
+
+        <EditText
+            android:id="@+id/contra"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="numberPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/fdsfds"
+            android:layout_marginLeft="10dp"
+            android:background="@color/MaterialTeal300"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/Negro"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="30dp"
+            android:text="Phone" />
+
+        <EditText
+            android:id="@+id/myphone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_marginBottom="20dp"
+        android:id="@+id/cb1"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="20dp"
+        android:text="I agree to the Terms of Use" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="20dp"
+        android:text="Receive occassional emails"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

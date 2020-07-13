@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="radioN">15dp</dimen>
+    <dimen name="radioP">10dp</dimen>
+    <dimen name="lado_cuadradomin">100dp</dimen>
+    <dimen name="lado_cuadrado">180dp</dimen>
+    <dimen name="lado_cuadradoP">35dp</dimen>
+</resources>
